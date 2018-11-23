@@ -1,8 +1,7 @@
 <footer class="footer-main">
-<hr>
     <div class="row">
         <div class="col-md-12">
-            
+            <hr>
             <div class="center-foot">
                 <div class="text">
                     SIGUENOS EN:

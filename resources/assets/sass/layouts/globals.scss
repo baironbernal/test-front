@@ -1,0 +1,35 @@
+@include font-face('ArialBoldItalic', '~/fonts/ArialBoldItalic');
+@include font-face('LouisBoldItalic', '~/fonts/LouisBoldItalic',null, null, otf);
+@include font-face('LouisItalic', '~/fonts/LouisItalic',null, null, otf);
+@include font-face('LouisRegular', '~/fonts/LouisRegular',null, null, otf);
+
+a{
+  text-decoration: none !important;
+}
+a:hover{
+  color:gray;
+}
+
+body{
+  font-family: 'LouisBoldItalic', 'sans-serif';
+  margin:0;
+  padding: 0;
+  background-color: white;
+}
+.yellow-button{
+  background: $yellow-color;
+  color: $gray-color;
+  padding: 13px 30px 13px 13px;
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 80% 100%, 0% 107%);
+   clip-path: polygon(0 0%, 100% 0%, 80% 100%, 0% 107%);
+}
+.gray-button{
+  background: $gray-color;
+  color: $yellow-color;
+  padding: 13px 10px 13px 22px;
+  -webkit-clip-path: polygon(0 100%, 35% -100%, 160% 100%, 0% 100%);
+   clip-path: polygon(0 100%, 35% -100%, 160% 100%, 0% 100%);
+}
+.gray-button, .yellow-button{
+    font-size: 14px;
+}

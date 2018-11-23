@@ -1,0 +1,23 @@
+
+.footer-main{
+    position: relative;
+    padding: 20px;
+    height: 30px;
+        hr{
+            width: 100%;
+            margin: 0%;
+            border: 2px solid $yellow-color;
+        }
+        .text, .icons, figure{
+            padding: 10px 5px 10px 5px;
+            display: inline-block;
+        }
+        
+        .center-foot{
+            width: 100%;
+            text-align: center;
+                
+        }
+
+
+}

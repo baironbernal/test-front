@@ -1,4 +1,5 @@
 
+
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
    <!-- Indicators -->
    <ol class="carousel-indicators">
@@ -10,18 +11,36 @@
    <div class="carousel-inner" role="listbox">
       <div class="item active">
          <div class="content-slide">
-            <img src="http://test-front.local/images/what-is.jpg" alt="Snow" style="width:100%;">
+            <img src="{{ asset('images/what-is.jpg') }}" alt="Snow" style="width=100%" class="img-responsive">
             <div class="paragrahp">Top 10 Tutorials
-HTML Tutorial
-CSS Tutorial
-JavaScript Tutorial
-How To Tutorial
-W3.CSS Tutorial
-Bootstrap Tutorial
-SQL Tutorial
-PHP Tutorial
-jQuery Tutorial
-Python Tutorial</div>
+               HTML Tutorial
+               CSS Tutorial
+               JavaScript Tutorial
+               How To Tutorial
+               W3.CSS Tutorial
+               Bootstrap Tutorial
+               SQL Tutorial
+               PHP Tutorial
+               jQuery Tutorial
+               Python Tutorial
+            </div>
+         </div>
+      </div>
+      <div class="item">
+         <div class="content-slide">
+            <img src="{{ asset('images/others-06.jpg') }}" alt="other" style="width=100%" class="img-responsive">
+            <div class="paragrahp">Top 10 Tutorials
+               HTML Tutorial
+               CSS Tutorial
+               JavaScript Tutorial
+               How To Tutorial
+               W3.CSS Tutorial
+               Bootstrap Tutorial
+               SQL Tutorial
+               PHP Tutorial
+               jQuery Tutorial
+               Python Tutorial
+            </div>
          </div>
       </div>
    </div>
@@ -35,6 +54,4 @@ Python Tutorial</div>
    <span class="sr-only">Next</span>
    </a>
 </div>
-
-
 

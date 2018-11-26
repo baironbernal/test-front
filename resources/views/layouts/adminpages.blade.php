@@ -13,7 +13,7 @@
     @yield('content')
     <!--end of page-->
 
-    {{--<script src="{{asset('js/admin.js')}}"></script>--}}
+    <script src="{{asset('js/app.js')}}"></script>    
     @yield('scripts')
 </body>
 </html>

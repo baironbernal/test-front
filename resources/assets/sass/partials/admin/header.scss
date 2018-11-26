@@ -1,0 +1,24 @@
+.header-main{
+    display: block;
+    position: relative;
+    height: 100px;
+        .dropdown{
+            background: $gray-light;
+            display: block;
+            position: absolute;
+            right: 20px;
+            padding-left: 20px;
+            figure{
+                display: inline-block;
+            }
+            figure img{
+                height: 50px;
+                width: 50px;
+            }
+        }
+}
+
+
+
+
+

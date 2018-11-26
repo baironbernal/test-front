@@ -1,0 +1,40 @@
+.page.admin{
+    height: calc(100vh - 20vh);
+    .main-menu{
+        background: $dark-color;
+        text-align: center;
+        
+        .nav > li{
+            font-family: 'LouisBoldItalic', sans-serif;
+            font-size: 15px !important;
+            float:inherit;
+            display: inline-block;
+            padding: 0px 20px 0px 20px;
+            
+        }
+            .active > a{
+                background: #5A595B;
+                border: 0;
+                color: $yellow-color;
+                cursor: pointer;
+            }
+            .active > a:hover{
+                background: #5A595B;
+            }
+            a{
+                color: white;
+            }
+    }
+    .bar-side, .content-tabs{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .bar-side{
+        width: 40%;
+    }
+    .content-tabs{
+        width: 55%;
+    }
+
+}
